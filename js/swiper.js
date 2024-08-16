@@ -41,7 +41,7 @@ var swiper4 = new Swiper(".img-1", {
     loop: true,
     pagination: {
         el: '.swiper-pagination-1',
-    }
+    },
 });
 var swiper5 = new Swiper(".img-2", {
     grabCursor: true,
@@ -109,7 +109,7 @@ var swiper10 = new Swiper(".img-4", {
   navigation: {
     nextEl: "#button-next-4",
     prevEl: "#button-prev-4",
-},
+  },
 });
 var swiper11 = new Swiper(".img-5", {
   grabCursor: true,

@@ -625,7 +625,27 @@ body.open .hamburger .bar:last-child{
     background: var(--main-color-1);
     color: var(--colo-white-3);
 }
+#more-text {
+    display: none;
+}
 
+.hidden {
+    display: none;
+}
+
+#toggle-button-card {
+    margin-top: 0px;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    background: var(--main-color-dark-2);
+    border: none;
+    border-radius: 6px;
+}
+#toggle-button-card:hover{
+    border: none;
+    
+}
 /*-------------Style card---------------*/
 .gallery{
     display: flex;
